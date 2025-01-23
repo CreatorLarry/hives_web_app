@@ -1,28 +1,244 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8242c0e5-77c8-44a2-8a4f-ee4d0c4148d8" name="Changes" comment="" />
+    <list default="true" id="8242c0e5-77c8-44a2-8a4f-ee4d0c4148d8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/main/assets/css/custom-styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/img/about2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/img/background-site.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/img/blog-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/img/blog-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/img/blog-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/img/event-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/img/event-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/img/event-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/img/event-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/img/event-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/img/event-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/img/event-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/img/event-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/img/fact.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/img/hero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/img/menu-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/img/menu-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/img/menu-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/img/menu-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/img/menu-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/img/menu-06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/img/menu-07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/img/menu-08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/img/menu-09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/img/menu-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/img/team-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/img/team-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/img/team-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/img/team-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/img/testimonial-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/img/testimonial-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/img/testimonial-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/img/testimonial-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/lib/counterup/counterup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/lib/easing/easing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/lib/easing/easing.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/lib/lightbox/css/lightbox.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/lib/lightbox/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/lib/lightbox/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/lib/lightbox/images/next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/lib/lightbox/images/prev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/lib/lightbox/js/lightbox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/lib/owlcarousel/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/lib/owlcarousel/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/lib/waypoints/links.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/lib/waypoints/waypoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/lib/wow/wow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/lib/wow/wow.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/_accordion.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/_breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/_button-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/_card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/_carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/_close.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/_containers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/_helpers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/_images.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/_modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/_nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/_offcanvas.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/_popover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/_progress.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/_reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/_root.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/_spinners.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/_toasts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/_tooltip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/_transitions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/_type.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/bootstrap-grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/bootstrap-reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/bootstrap-utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/bootstrap.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/forms/_floating-labels.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/forms/_form-check.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/forms/_form-control.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/forms/_form-range.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/forms/_form-select.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/forms/_form-text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/forms/_input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/forms/_labels.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/forms/_validation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/helpers/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/helpers/_colored-links.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/helpers/_position.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/helpers/_ratio.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/helpers/_stretched-link.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/helpers/_text-truncation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/helpers/_visually-hidden.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/mixins/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/mixins/_border-radius.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/mixins/_box-shadow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/mixins/_breakpoints.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/mixins/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/mixins/_caret.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/mixins/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/mixins/_color-scheme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/mixins/_container.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/mixins/_deprecate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/mixins/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/mixins/_gradients.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/mixins/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/mixins/_image.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/mixins/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/mixins/_lists.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/mixins/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/mixins/_reset-text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/mixins/_resize.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/mixins/_table-variants.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/mixins/_text-truncate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/mixins/_transition.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/mixins/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/mixins/_visually-hidden.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/utilities/_api.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/scss/bootstrap/scss/vendor/_rfs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/booking.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/events.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/landing_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/master.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/hives_web_app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hives_web_app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hives_web_app/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/hives_web_app/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hives_web_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/hives_web_app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;CreatorLarry&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:CreatorLarry/hives_web_app.git&quot;,
+    &quot;accountId&quot;: &quot;409726a6-1946-4367-8c82-b8838d5e5c17&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2ryRYiAWbHUe0gvuj0C7ZRKcwE9" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "django.template.preview.state": "SHOW_EDITOR_AND_PREVIEW",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Creator_Larry/OneDrive/Desktop/pastries_frontend",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Creator_Larry\hives_web_app\main\assets\img" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="hives_web_app" type="Python.DjangoServer" factoryName="Django server">
+      <module name="hives_web_app" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -39,7 +255,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1737529378473</updated>
-      <workItem from="1737529380863" duration="58000" />
+      <workItem from="1737529380863" duration="901000" />
+      <workItem from="1737530307920" duration="697000" />
+      <workItem from="1737614149160" duration="11199000" />
     </task>
     <servers />
   </component>

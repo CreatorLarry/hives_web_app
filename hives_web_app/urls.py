@@ -17,6 +17,24 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from main import views
+
 urlpatterns = [
+    path('', views.landing_page, name='landing_page'),
+
+    path('booking/', views.booking, name='booking'),
+
+    path('thank-you/', views.thank_you, name='thank_you'),
+
+    path('about/', views.about, name='about'),
+
+    path('services/', views.services, name='services'),
+
+    path('events/', views.events, name='events'),
+
+    path('menu/', views.menu, name='menu'),
+
+    path('contact/', views.contact, name='contact'),
+
     path('admin/', admin.site.urls),
 ]
