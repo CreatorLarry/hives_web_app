@@ -1,5 +1,6 @@
 from django import forms
-from .models import Booking
+from .models import Booking, OrderableItem, Order
+
 
 class BookingForm(forms.ModelForm):
     class Meta:
@@ -21,3 +22,14 @@ class BookingForm(forms.ModelForm):
             'email': forms.EmailInput(attrs={'class': 'form-control border-primary p-2', 'placeholder': 'Enter Your Email'}),
             'client_name': forms.TextInput(attrs={'class': 'form-control border-primary p-2', 'placeholder': 'Enter Your Name'}),
         }
+
+
+class OrderForm(forms.ModelForm):
+    items = forms.ModelMultipleChoiceField(
+        queryset=OrderableItem.objects.all(),
+        widget=forms.CheckboxSelectMultiple(attrs={'class': 'form-check-input'}),
+        required=True
+    )
+    class Meta:
+        model = Order
+        fields = ['client_name', 'county', 'town', 'place_name', 'items', 'specifications', 'additional_notes', 'contact_number', 'email']

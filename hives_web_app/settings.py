@@ -26,11 +26,12 @@ SECRET_KEY = 'django-insecure-%^yf4wok!=4hvb$&70&#tw^hd=9pnvww)g)3@ye*f8btg0v)k8
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 # Application definition
 
 INSTALLED_APPS = [
+    'jazzmin',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -138,3 +139,14 @@ MESSAGE_TAGS = {
 }
 
 LOGIN_URL = 'login'
+
+JAZZMIN_SETTINGS = {
+    "site_title": "Hives Web App",
+    "site_brand": "Hives Web App",
+    "copyright": "Hives Web App 2025",
+    "topmenu_links": [
+        {"app": "main", },
+
+    ],
+    "show_ui_builder": True,
+}

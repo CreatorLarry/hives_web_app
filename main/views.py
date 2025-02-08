@@ -1,26 +1,25 @@
 from django.contrib import messages
 from django.shortcuts import render, redirect
+from django.urls import reverse
 
-from main.forms import BookingForm
-from main.models import Booking
+from main.forms import BookingForm, OrderForm
+from main.models import Booking, Order
 
 
-# Create your views here.
+# Landing Page
 def landing_page(request):
     return render(request, 'landing_page.html')
 
 
+# Booking Views
 def booking(request):
     if request.method == 'POST':
         form = BookingForm(request.POST)
         if form.is_valid():
-            form.save()  # Save the form data to the database
-            return redirect('thank_you')  # Redirect to the thank you page
-        else:
-            # If the form is invalid, render the form with errors
-            return render(request, 'booking.html', {'form': form})
+            form.save()
+            return redirect('thank_you')
+        return render(request, 'booking.html', {'form': form})
     else:
-        # For GET requests, render the empty form
         form = BookingForm()
         return render(request, 'booking.html', {'form': form})
 
@@ -29,6 +28,7 @@ def thank_you(request):
     return render(request, 'thank_you.html', {'message': 'Thank you for your booking!'})
 
 
+# Static Pages
 def about(request):
     return render(request, 'about.html')
 
@@ -47,3 +47,57 @@ def menu(request):
 
 def contact(request):
     return render(request, 'contact.html')
+
+
+# Order Views
+def order_form(request):
+    """Display the empty order form."""
+    form = OrderForm()
+    return render(request, 'order_detail.html', {'form': form})
+
+
+def order(request):
+    if request.method == 'POST':
+        form = OrderForm(request.POST)
+        if form.is_valid():
+            form.save()
+            return redirect('order_detail_view')
+        return render(request, 'order.html', {'form': form})
+    else:
+        form = OrderForm()
+        return render(request, 'order.html', {'form': form})
+
+
+def order_detail_view(request):
+    """Display order details from session."""
+    order_data = request.session.get('order_data')
+    if not order_data:
+        return redirect('thank_you_order')
+    return render(request, 'order_detail.html', {'order_data': order_data})
+
+
+def order_confirm_view(request):
+    """Confirm and save the order."""
+    if request.method == 'POST':
+        order_data = request.session.get('order_data')
+        if order_data:
+            items = order_data.pop('items', None)
+            order = Order.objects.create(**order_data)
+            if items:
+                order.items.set(items)
+            order.save()
+            del request.session['order_data']
+            return redirect('thank_you_order')
+    return redirect('order_form')
+
+
+def order_list(request):
+    """List previous orders."""
+    email = request.GET.get('email')
+    orders = Order.objects.filter(email=email) if email else Order.objects.all()
+    return render(request, 'previous_order_list.html', {'orders': orders})
+
+
+def thank_you_order(request):
+    """Display thank-you page for orders."""
+    return render(request, 'thank_you_order.html')

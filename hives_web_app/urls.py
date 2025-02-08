@@ -24,7 +24,15 @@ urlpatterns = [
 
     path('booking/', views.booking, name='booking'),
 
+    path('order/', views.order, name='order'),
+
+    path('order/form/', views.order_detail_view, name='order_detail_view'),
+
+    path('order-list/', views.order_list, name='order_list'),
+
     path('thank-you/', views.thank_you, name='thank_you'),
+
+    path('thank-you-order/', views.thank_you_order, name='thank_you_order'),
 
     path('about/', views.about, name='about'),
 

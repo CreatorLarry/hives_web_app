@@ -1,0 +1,40 @@
+{% extends 'master.html' %}
+{% load static %}
+
+
+{% block title %}
+    <title>Thank You</title>
+{% endblock %}
+
+
+
+{% block extra_css %}
+
+{% endblock %}
+
+
+{% block content %}
+    <div class="container-fluid bg-light py-6 my-6 mt-0">
+        <div class="container text-center animated bounceInDown">
+            <h1 class="display-1 mb-4">Thank You</h1>
+            <ol class="breadcrumb justify-content-center mb-0 animated bounceInDown">
+                <li class="breadcrumb-item"><a href="{% url 'landing_page' %}">Home</a></li>
+                <li class="breadcrumb-item text-dark"><a href="{% url 'order' %}">Order</a></li>
+                <li class="breadcrumb-item text-dark" aria-current="page">Thank You</li>
+            </ol>
+        </div>
+
+        <p class="lead mb-4 text-center">Your order has been received. We will deliver before you are done saying
+            HIVES!!.</p>
+        <div class="text-center my-4">
+{#            <a href="{% url 'order_list' %}" class="btn btn-primary mx-2">View Previous Orders</a>#}
+            <a href="{% url 'landing_page' %}" class="btn btn-primary mx-2">Back Home</a>
+        </div>
+
+    </div>
+{% endblock %}
+
+
+{% block extra_js %}
+
+{% endblock %}
