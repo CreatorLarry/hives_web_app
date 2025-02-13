@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Booking, OrderableItem, Order
+from .models import Booking, OrderableItem, Order, ContactMessage
 
 
 @admin.register(Booking)
@@ -26,3 +26,8 @@ class OrderAdmin(admin.ModelAdmin):
 
     # Optional: You can add search fields for easier searching in the admin
     search_fields = ['client_name', 'county', 'town']
+
+@admin.register(ContactMessage)
+class ContactMessageAdmin(admin.ModelAdmin):
+    list_display = ('name', 'email', 'sent_at')
+    search_fields = ('name', 'email')

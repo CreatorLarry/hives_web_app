@@ -4,6 +4,7 @@ from django.db import models
 
 from django.db import models
 
+
 class Booking(models.Model):
     county = models.CharField(max_length=100)
     town = models.CharField(max_length=100)
@@ -55,3 +56,13 @@ class Order(models.Model):
 
     def __str__(self):
         return f"{self.items} ordered by {self.client_name} to be delivered to {self.county}, {self.town} at {self.place_name}"
+
+
+class ContactMessage(models.Model):
+    name = models.CharField(max_length=150)
+    email = models.EmailField()
+    message = models.TextField()
+    sent_at = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return f"{self.name} - {self.email}"

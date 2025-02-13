@@ -3,7 +3,7 @@ from django.shortcuts import render, redirect
 from django.urls import reverse
 
 from main.forms import BookingForm, OrderForm
-from main.models import Booking, Order
+from main.models import Booking, Order, ContactMessage
 
 
 # Landing Page
@@ -43,10 +43,6 @@ def events(request):
 
 def menu(request):
     return render(request, 'menu.html')
-
-
-def contact(request):
-    return render(request, 'contact.html')
 
 
 # Order Views
@@ -101,3 +97,22 @@ def order_list(request):
 def thank_you_order(request):
     """Display thank-you page for orders."""
     return render(request, 'thank_you_order.html')
+
+
+def contact_view(request):
+    if request.method == "POST":
+        print(request.POST)
+        name = request.POST.get("name")
+        email = request.POST.get("email")
+        message = request.POST.get("message")
+
+        print(f"Received Data - Name: {name}, Email: {email}, Message: {message}")
+
+        if name and email and message:
+            ContactMessage.objects.create(name=name, email=email, message=message)
+            messages.success(request, "Your message has been sent. Thank you!")
+            return redirect("contact")  # Prevents duplicate submissions on refresh
+        else:
+            messages.error(request, "All fields are required.")
+
+    return render(request, "contact.html")
