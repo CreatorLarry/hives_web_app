@@ -1,6 +1,8 @@
 from django.contrib import admin
 from .models import Booking, OrderableItem, Order, ContactMessage
 
+admin.site.site_header = 'Pastries Admin'
+admin.site.site_title = 'Pastries Admin'
 
 @admin.register(Booking)
 class BookingAdmin(admin.ModelAdmin):

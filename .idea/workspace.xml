@@ -4,11 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8242c0e5-77c8-44a2-8a4f-ee4d0c4148d8" name="Changes" comment="" />
+    <list default="true" id="8242c0e5-77c8-44a2-8a4f-ee4d0c4148d8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hives_web_app/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/hives_web_app/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/admin.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -53,7 +60,7 @@
     &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR_AND_PREVIEW&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Creator_Larry/Cornerstone_Project&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Creator_Larry/cornerstone_project&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -121,6 +128,16 @@
       <workItem from="1738227391081" duration="816000" />
       <workItem from="1739017074257" duration="843000" />
       <workItem from="1739017947589" duration="97000" />
+      <workItem from="1739439359840" duration="5690000" />
+      <workItem from="1739463154303" duration="757000" />
+      <workItem from="1739513677094" duration="617000" />
+      <workItem from="1739886788424" duration="559000" />
+      <workItem from="1739951873927" duration="1107000" />
+      <workItem from="1740046780600" duration="331000" />
+      <workItem from="1740116829826" duration="347000" />
+      <workItem from="1740297979881" duration="1181000" />
+      <workItem from="1742365922385" duration="1174000" />
+      <workItem from="1742367454622" duration="1658000" />
     </task>
     <servers />
   </component>
