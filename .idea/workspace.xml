@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8242c0e5-77c8-44a2-8a4f-ee4d0c4148d8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hives_web_app/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/hives_web_app/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/admin.py" afterDir="false" />
-    </list>
+    <list default="true" id="8242c0e5-77c8-44a2-8a4f-ee4d0c4148d8" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -138,6 +134,7 @@
       <workItem from="1740297979881" duration="1181000" />
       <workItem from="1742365922385" duration="1174000" />
       <workItem from="1742367454622" duration="1658000" />
+      <workItem from="1742373109096" duration="1506000" />
     </task>
     <servers />
   </component>
