@@ -1,0 +1,24 @@
+databases:
+  - name: pastries_db
+    plan: free
+    databaseName: pastries
+    user: pastries
+
+services:
+  - type: web
+    plan: free         # you can upgrade later
+    name: pastries
+    runtime: python
+    buildCommand: ./build.sh
+    startCommand: python -m gunicorn pastries.asgi:application -k uvicorn.workers.UvicornWorker
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: pastries_db
+          property: connectionString
+      - key: SECRET_KEY
+        generateValue: true
+      - key: DEBUG
+        value: "False"
+      - key: WEB_CONCURRENCY
+        value: "4"
